@@ -1,0 +1,22 @@
+{
+  "name": "Ruslan Smolovyk CV",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Ruslan Smolovyk CV",
+  "repository": "https://github.com/ruffHub/ruslan-smolovyk",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uncss": "^1.0.6"
+  },
+  "scripts": {},
+  "dependencies": {}
+}

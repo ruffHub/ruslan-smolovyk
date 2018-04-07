@@ -1,0 +1,21 @@
+{
+  "skills": [
+    "HTML5/CSS3",
+    "Pure JavaScript (ES5/ES6)",
+    "Angular.js 1.x, Angular 2-5 (TypeScript)",
+    "Git",
+    "Gulp",
+    "Npm | Bower | Yarn"
+  ],
+  "familiarWith": [
+    "Node.js (Express)",
+    "MongoDB",
+    "Webpack",
+    "SCSS preprocessor"
+  ],
+  "understanding": [
+    "REST API",
+    "Software development life cycle",
+    "Agile/Scrum methodology"
+  ]
+}
