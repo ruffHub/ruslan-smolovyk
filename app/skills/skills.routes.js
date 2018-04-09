@@ -17,7 +17,7 @@
                     dataPrepareFunc: dataPrepareFunc
                 },
             });
-    };
+    }
 
     function dataPrepareFunc(dataService) {
         return dataService.getSkills();

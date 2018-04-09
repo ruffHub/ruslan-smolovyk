@@ -1,24 +1,9 @@
 <div class="skills">
 
-  <div>
-    <h3>Main skills:</h3>
-    <ul>
-      <li ng-repeat="item in skills.data.skills">{{item}}</li>
-    </ul>
-  </div>
+  <skills-list title="'Main skills'" items="skills.data.skills"></skills-list>
 
-  <div>
-    <h3>Also familiar with:</h3>
-    <ul>
-      <li ng-repeat="item in skills.data.familiarWith">{{item}}</li>
-    </ul>
-  </div>
+  <skills-list title="'Also familiar with'" items="skills.data.familiarWith"></skills-list>
 
-  <div>
-    <h3>Understanding:</h3>
-    <ul>
-      <li ng-repeat="item in skills.data.understanding">{{item}}</li>
-    </ul>
-  </div>
+  <skills-list title="'Understanding'" items="skills.data.understanding"></skills-list>
 
 </div>
