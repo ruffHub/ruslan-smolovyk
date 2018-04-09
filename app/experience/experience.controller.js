@@ -5,8 +5,11 @@
         .module('app.experience')
         .controller('ExperienceCtrl', ExperienceCtrl);
 
-
-    function ExperienceCtrl() {
+    ExperienceCtrl.$inject = ['dataPrepareFunc'];
+    
+    function ExperienceCtrl(dataPrepareFunc) {
+        const vm = this;
+        vm.data = dataPrepareFunc;
     }
 
 })();
