@@ -5,11 +5,10 @@
         .module('app')
         .directive('appHeader', header);
 
-
     function header() {
         return {
-            templateUrl: 'header/header.directive.html',
             restrict: 'EA',
+            templateUrl: 'header/header.directive.html',
             controller: HeaderCtrl,
             controllerAs: 'header'
         };
