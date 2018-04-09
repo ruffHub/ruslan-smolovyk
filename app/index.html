@@ -2,12 +2,10 @@
 <html lang="en" ng-app="app" class="no-js">
 <head>
   <meta charset="utf-8">
-  <title>CV</title>
-  <meta name="description" content="CV">
+  <title>Ruslan Smolovyk CV</title>
+  <meta name="description" content="Ruslan Smolovyk CV">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
   <!-- Custom CSS -->
   <link rel="stylesheet" href="app.css">
 </head>
@@ -16,13 +14,10 @@
 <app-header></app-header>
 <ng-view></ng-view>
 
-<!-- In production use:
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
--->
 <!-- AngularJS -->
-<script src="bower_components/angular/angular.js"></script>
-<script src="bower_components/angular-route/angular-route.js"></script>
-<!-- ScriptsJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-route.min.js"></script>
+<!-- Scripts -->
 <script src="app.js"></script>
 <script src="data.service.js"></script>
 <script src="app.routes.js"></script>
@@ -30,9 +25,11 @@
 <script src="skills/skills.module.js"></script>
 <script src="skills/skills.routes.js"></script>
 <script src="skills/skills.controller.js"></script>
+<script src="skills/skills-list.directive.js"></script>
 <script src="experience/experience.module.js"></script>
 <script src="experience/experience.routes.js"></script>
 <script src="experience/experience.controller.js"></script>
+<script src="experience/experience-list.directive.js"></script>
 <script src="about/about.module.js"></script>
 <script src="about/about.routes.js"></script>
 <script src="about/about.controller.js"></script>
